@@ -7,7 +7,7 @@ import org.springframework.boot.actuate.endpoint.annotation.WriteOperation;
 import org.springframework.stereotype.Component;
 
 @Component
-@Endpoint(id = "custom-endpoint")
+@Endpoint(id = "custom-endpoint1")
 public class CustomEndpoint {
 
     @ReadOperation
